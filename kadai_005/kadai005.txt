@@ -1,0 +1,46 @@
+ローカルリポジトリの作成
+
+hibiki iwamoto@PmxrIwamotoH2 MINGW64 /c/git_tutorial (main)
+$ git init
+Reinitialized existing Git repository in C:/git_tutorial/.git/
+
+ファイルパスの移動
+
+hibiki iwamoto@PmxrIwamotoH2 MINGW64 /c/git_tutorial (main)
+$ cd c://git_challenge
+
+
+インデックスに登録
+
+hibiki iwamoto@PmxrIwamotoH2 MINGW64 /c/git_challenge (main)
+$ git add hello_world.txt
+
+コミット
+
+hibiki iwamoto@PmxrIwamotoH2 MINGW64 /c/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) ef380e8] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+インデックスに登録
+
+hibiki iwamoto@PmxrIwamotoH2 MINGW64 /c/git_challenge (main)
+$ git add hello_world.txt
+
+コミット
+ 
+hibiki iwamoto@PmxrIwamotoH2 MINGW64 /c/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 8ac9215] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+確認
+
+ hibiki iwamoto@PmxrIwamotoH2 MINGW64 /c/git_challenge (main)
+ $ git log --oneline
+ 8ac9215 (HEAD -> main) 日本語訳を追記
+ ef380e8 hello_world.txtを追加
+
+
+ 
